@@ -12,6 +12,7 @@ A modern, responsive **personal portfolio website** showcasing my skills, projec
 Built with a **dark/neon UI**, smooth animations, and interactive effects.
 
 🔗 **Live Portfolio:** (Add GitHub Pages link here)
+https://github.com/Anjaliverma09/My-Portfolio
 
 ---
 
@@ -89,6 +90,7 @@ My-Portfolio/
 ├── README.md           # Project documentation
 └── .gitignore          # Git ignore file
 
+---
 
 ## 📌 How to Use
 
