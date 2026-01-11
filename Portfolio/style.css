@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0a0e1f;
+  color: #eaeaf0;
+  overflow-x: hidden;
+}
+
+/* Background Gradient */
+.bg-animation {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background:
+    radial-gradient(circle at top left, #1b3267, transparent),
+    radial-gradient(circle at bottom right, #4a0ca3, transparent);
+  z-index: -1;
+}
+
+/* Theme toggle */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 50%;
+  background: #111;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  z-index: 999;
+}
+
+/* Social icons */
+.social-icons {
+  position: fixed;
+  top: 50%;
+  left: 25px;
+  transform: translateY(-50%);
+  z-index: 999;
+}
+
+.social-icons a {
+  display: block;
+  margin: 12px 0;
+  font-size: 28px;
+  color: #ddd;
+  transition: 0.4s;
+}
+
+.social-icons a:hover {
+  color: #00f5ff;
+  transform: scale(1.2);
+}
+
+/* Hero */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 60px;
+  background: linear-gradient(90deg, #00f5ff, #9d4edd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero h2 {
+  margin-top: 10px;
+  font-size: 26px;
+  opacity: 0.9;
+}
+
+.hero p {
+  margin-top: 8px;
+  letter-spacing: 2px;
+}
+
+/* Glass about */
+.glass {
+  background: rgba(255,255,255,0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 18px;
+}
+
+/* About */
+.about {
+  max-width: 880px;
+  margin: 90px auto;
+  padding: 45px;
+  text-align: center;
+}
+
+/* Skills & Projects */
+.skills, .projects {
+  max-width: 1200px;
+  margin: 110px auto;
+  padding: 0 24px;
+}
+
+.skills h3, .projects h3 {
+  text-align: center;
+  font-size: 38px;
+  margin-bottom: 50px;
+}
+
+.skill-grid, .project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 28px;
+}
+
+.skill-card, .project-card {
+  background: rgba(255,255,255,0.05);
+  padding: 28px;
+  border-radius: 20px;
+  text-align: center;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.skill-card:hover, .project-card:hover {
+  box-shadow: 0 0 45px rgba(0,245,255,0.4);
+}
+
+/* Project link buttons */
+.project-card a span {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #00f5ff;
+  color: #111;
+  border-radius: 18px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project-card a span:hover {
+  background: #9d4edd;
+  color: #fff;
+}
+
+/* Icons spacing */
+.icons {
+  font-size: 38px;
+  margin: 10px 0;
+}
+
+/* Icon colors */
+.html { color: #ff7043; }
+.css { color: #42a5f5; }
+.js { color: #f7df1e; }
+.api { color: #bbb; }
+.java { color: #ff9800; }
+.cpp { color: #00bcd4; }
+.mysql { color: #4db6ac; }
+.spring { color: #6db33f; }
+.dsa { color: #ff4d6d; }
+.github { color: white; }
+.vscode { color: #29b6f6; }
+.intellij { color: #ba68c8; }
+
+.wide {
+  grid-column: span 2;
+}
+
+@media (max-width: 768px) {
+  .wide { grid-column: span 1; }
+}
+
+/* Neon mode */
+body.neon .skill-card,
+body.neon .project-card {
+  box-shadow: 0 0 40px #00f5ff;
+}
+
+/* Footer */
+footer {
+  margin-top: 90px;
+  padding: 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+}
