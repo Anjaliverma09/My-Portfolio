@@ -1,12 +1,12 @@
 # 🌐 Anjali Verma – Developer Portfolio
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 A modern, responsive **personal portfolio website** showcasing my skills, projects, and professional profiles.  
 Built with a **dark/neon UI**, smooth animations, and interactive effects.
@@ -56,34 +56,39 @@ Built with a **dark/neon UI**, smooth animations, and interactive effects.
 
 ### 🔹 LeetCode Progress
 Repository tracking my **Data Structures & Algorithms** practice and problem-solving journey.  
-🔗 https://github.com/Anjaliverma09/LeetCode
+🔗 [LeetCode Repository](https://github.com/Anjaliverma09/LeetCode)
 
 ---
 
 ### 🔹 Resto Web
 A responsive **restaurant website** built using HTML, CSS, and JavaScript with a clean and modern UI.  
-🔗 https://github.com/Anjaliverma09/Resto_web
+🔗 [Resto Web Repository](https://github.com/Anjaliverma09/Resto_web)
 
 ---
 
 ### 🔹 Flower Shop Website
 A frontend **flower shop website** featuring aesthetic design, smooth layout, and interactive components.  
-🔗 https://github.com/Anjaliverma09/Flower-Shop-website
+🔗 [Flower Shop Repository](https://github.com/Anjaliverma09/Flower-Shop-website)
 
 ---
 
 ## 📂 Project Structure
 
+```text
+My-Portfolio/
+├── index.html          # Main landing page
+├── about.html          # About section
+├── projects.html       # Projects showcase
+├── contact.html        # Contact form page
+├── assets/
+│   ├── css/
+│   │   └── style.css   # Main stylesheet
+│   ├── js/
+│   │   └── main.js     # Scripts for interactivity
+│   └── images/         # All images, icons, and media
+├── README.md           # Project documentation
+└── .gitignore          # Git ignore file
 
----
-
-## 📬 Connect With Me
-
-[![GitHub](https://img.shields.io/badge/GitHub-Anjaliverma09-181717?style=for-the-badge&logo=github)](https://github.com/Anjaliverma09)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Anjali%20Verma-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anjali-verma09)
-[![Email](https://img.shields.io/badge/Email-anjaliiverma09%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:anjaliiverma09@gmail.com)
-
----
 
 ## 📌 How to Use
 
