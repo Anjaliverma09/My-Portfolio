@@ -84,6 +84,6 @@ git clone https://github.com/Anjaliverma09/My-Portfolio.git
 
 ## 📬 Contact Info 
 
-* [LeetCode](https://leetcode.com/u/anjali_verma09)
-* [GitHub](https://github.com/Anjaliverma09/)
-* [LinkedIn](https://www.linkedin.com/in/anjali-verma09/)
+* LeetCode: [LeetCode](https://leetcode.com/u/anjali_verma09)
+* GitHub: [GitHub](https://github.com/Anjaliverma09/)
+* LinkedIn: [LinkedIn](https://www.linkedin.com/in/anjali-verma09/)
