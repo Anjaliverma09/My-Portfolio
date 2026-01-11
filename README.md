@@ -11,7 +11,8 @@
 A modern, responsive **personal portfolio website** showcasing my skills, projects, and professional profiles.  
 Built with a **dark/neon UI**, smooth animations, and interactive effects.
 
-🔗 **Live Portfolio:** (Add GitHub Pages link here)
+🔗 **Live Portfolio:** 
+
 https://github.com/Anjaliverma09/My-Portfolio
 
 ---
@@ -73,27 +74,16 @@ A frontend **flower shop website** featuring aesthetic design, smooth layout, an
 
 ---
 
-## 📂 Project Structure
+📌 How to Use
 
-```text
-My-Portfolio/
-├── index.html          # Main landing page
-├── about.html          # About section
-├── projects.html       # Projects showcase
-├── contact.html        # Contact form page
-├── assets/
-│   ├── css/
-│   │   └── style.css   # Main stylesheet
-│   ├── js/
-│   │   └── main.js     # Scripts for interactivity
-│   └── images/         # All images, icons, and media
-├── README.md           # Project documentation
-└── .gitignore          # Git ignore file
+Clone the repository and open locally:
+
+git clone https://github.com/Anjaliverma09/My-Portfolio.git
 
 ---
 
-## 📌 How to Use
+## 📬 Connect With Me
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/Anjaliverma09/your-portfolio-repo-name.git
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anjali-verma09)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Anjaliverma09)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:anjaliiverma09@gmail.com)
